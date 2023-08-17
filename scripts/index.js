@@ -1,8 +1,7 @@
 import { validateRadioButtons, validateSelectBox, validateFile, validateCheckbox } from './validate.js';
 import validateTextField from './validateTextField.js';
 
-const textFields = ['firstName', 'lastName', 'phone', 'email', 'address',
-  'college', 'cgpa', 'coverLetter', 'expectedSalary', 'reference'];	
+const textFields = ['firstName', 'lastName', 'phone', 'email', 'address'];
 const GenderRadioButtons = ['male', 'female', 'other'];
 const SelectBoxes = ['country', 'state', 'city', 'experience', 'role'];
 const Files = ['resume'];
